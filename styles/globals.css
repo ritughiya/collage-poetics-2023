@@ -27,6 +27,18 @@ a{
     z-index: 100;    
     transition: all 3s;
     /* cursor: pointer; */
+      animation: 3s float infinite ease-in-out !important;
+}
+
+.cloudheader img{
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    pointer-events: none;
+
 }
 
 .cloudheader:hover{
@@ -244,6 +256,23 @@ footer{
     -webkit-animation-name: bounceInDown;
     animation-name: bounceInDown;
 }
+
+
+  @keyframes float {
+    0% {
+      /* filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.616)); */
+      transform: translatey(0px);
+    }
+    50% {
+      /* filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2)); */
+      transform: translatey(-10px);
+    }
+    100% {
+      /* filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.616)); */
+      transform: translatey(0px);
+    }
+  }
+
 
 @media only screen and (max-width: 800px) {
 

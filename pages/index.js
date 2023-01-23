@@ -46,7 +46,7 @@ function HomePage() {
 
 </div>
     <div className="header">
-    <img src="/CollagePoetics.png" layout="fill"></img>
+    <img src="/CollagePoetics.png" layout="fill" draggable="false" onDragStart="return false;" onContextMenu="return false;" ></img>
     </div>
 
     <div className="container">
