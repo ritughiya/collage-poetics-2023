@@ -81,7 +81,19 @@ function HomePage() {
             </div>
         </div>
         <div className="group">
-        Orientations of a Queer Phenomenology by Sara Ahmed
+        On Surface Duetting Space
+            <div className="cardcontainer">
+            <div className="card sara">
+            <a href="https://www.are.na/blog/on-surface-duetting-space" target="_blank">
+            <img src="nasreen-mohamedi.jpg"></img>
+            </a>
+
+            </div>            
+
+            </div>
+        </div>
+        <div className="group">
+        Orientations Toward a Queer Phenomenology
             <div className="cardcontainer">
             <div className="card sara">
             <a href="/Excerpt-Orientations+Toward+a+Queer+Phenomenology.pdf" target="_blank">
@@ -92,6 +104,7 @@ function HomePage() {
 
             </div>
         </div>
+
         </div>
         <div className="row">
 
