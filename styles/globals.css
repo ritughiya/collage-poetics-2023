@@ -1,12 +1,54 @@
 html {
     font-family: 'Helvetica';
-    background-color: #d9c8d3;
-    margin: 1vh 1vw;
     font-size: 12px;
+    margin:0;
 }
 
+
+
+.week{
+    padding: 1vh 1vw;
+}
+
+.week1{
+    background-color: #d9c8d3;
+
+}
 body {
     zoom: 100%;
+    margin:0;
+}
+
+.underline{
+    text-decoration:underline;
+}
+
+.portal{
+    position:fixed;
+    bottom:0;
+    right:0;
+    padding: 10px 80px 10px 10px;
+    margin-right:30px;
+    background-color: #ece085;
+    cursor:pointer;
+}
+
+.portal a:hover{
+    color:red;
+}
+
+.click{
+    position:fixed;
+    bottom:0;
+    left:0;
+    padding: 10px 80px 10px 10px;
+    margin-left:30px;
+    background-color: #d5c2cb;
+    cursor:pointer;
+}
+
+.click a:hover{
+    color:red;
 }
 
 ::selection {
@@ -45,7 +87,7 @@ a{
     right:-30vw;
 }
 
-.cloudh1{
+.week1 .cloudh1{
     display: flex;
     z-index: 10000;
     position: absolute;
@@ -54,16 +96,26 @@ a{
     font-weight: bold;
 }
 
-.cloudh1 div{
+.week1 .cloudh1 div{
     margin-right:25px;
 }
 
-.cloudh1 div a:hover{
+.week1 .cloudh1 div a:hover{
     color:grey;
 }
 
-.header img {
+.week1 .header,
+.week2 .header{
+    display:flex;
+}
+
+.week1 .header img {
     width: 300px;
+    margin-right:20px;
+}
+
+.week1 .subhead{
+    font-family:'Courier New', Courier, monospace;
 }
 
 .container{
@@ -129,6 +181,22 @@ a{
     border: 1px solid black;
 }
 
+.black{
+    background-color: black;
+    border: 1px solid black;  
+    color:white;
+}
+
+.black .link{
+    color: white;
+    padding: 5px;
+}
+
+.blue{
+    background-color: #d4f3f9;
+    border: 2px solid #120afa;   
+}
+
 .purple {
     background-color: #E4D4F9;
     border: 2px solid #720AFA;
@@ -140,7 +208,8 @@ a{
 }
 
 .sara,
-.amiri {
+.amiri,
+.journal2 {
     border: 1px solid black;
 }
 
@@ -149,6 +218,11 @@ a{
     width: auto;
     height: 250px;
     margin-left: -28%;
+}
+
+.journal2 img{
+    width: auto;
+    height: 255px;
 }
 
 .cardcontainer {
@@ -169,6 +243,16 @@ footer{
     font-family: 'Courier';
     line-height: 1.2;
     letter-spacing: 0.2px;
+    width:90%;
+    margin-bottom:50px;
+}
+
+/* week 2 */
+
+.week2 .header{
+    justify-content:space-between;
+    font-weight:bold;
+    width:200px;
 }
 
 

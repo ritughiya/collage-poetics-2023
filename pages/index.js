@@ -25,6 +25,7 @@ function HomePage() {
 
   return (
     <>
+    <div className="week week2">
     <Head>
     <title>collage poetics 2023</title>
     </Head>
@@ -46,11 +47,24 @@ function HomePage() {
 
 </div>
     <div className="header">
-    <img src="/CollagePoetics.png" layout="fill" draggable="false" onDragStart="return false;" onContextMenu="return false;" ></img>
+        <div className="head">Collage Poetics</div>
+    <div className="subhead">Week 2 - Sketching</div>
+    </div>
+
+    <div className="portal">
+        <a href="/week1">
+            Week 1
+        </a>
+    </div>
+
+    <div className="click">
+        <a href="https://docs.google.com/spreadsheets/d/1hBWCRV9fTf0BlN7hTykIjYfiBWIuMQpY7kmop6ilUCs/edit?usp=sharing">
+            office hours
+        </a>
     </div>
 
     <div className="container">
-
+    <div className="row">
         <div className="group animate__animated animate__bounceInDown">
             Syllabus
             <div className="card default">
@@ -58,21 +72,41 @@ function HomePage() {
             <div className="link"></div>
 </a>
             </div>
+            
         </div>
+        <div className="group">
+        Journal Prompts
+            <div className="cardcontainer">
+            <div className="card journal2">
+            <a href="https://docs.google.com/document/d/17thFROeYoqlPC47DXvapOj9uYkCKLvwbkHZBQEZFyVk/edit?usp=sharing" target="_blank">
+            <img src="mm6.jpeg"></img>
+            </a>
+
+            </div>            
+
+            </div>
+        </div>
+        <div className="group">
+        Invite to our Are.na
+            <div className="cardcontainer">
+            <div className="card blue">
+            <a target="_blank" href="https://www.are.na/group/collage-poetics/invite/v4ZqObrOr7Fbde7By4dPLA">
+            <div className="link">
+                </div>
+                </a>
+            </div>            
+            </div>
+        </div>
+        </div>
+
         <div className="row">
 
         <div className="group">
-            Lecture: On Collage
-            <div className="card transparent">
-            <a target="_blank" href="/Collage-Poetics-2023-Day-1.pdf">
+            Hackers and Painters
+            <div className="card black">
+            <a target="_blank" href="http://www.paulgraham.com/hp.html">
             <div className="link">
 
-            <div className="nodal">
-                    <div className="dot"></div>
-                </div>
-                <div className="point">
-
-                </div>
 
             </div>
 </a>
@@ -80,46 +114,31 @@ function HomePage() {
 
             </div>
         </div>
+
         <div className="group">
-        On Surface Duetting Space
+        Audiobook by <a class="underline" href="https://youtu.be/FqNDYvsOZkc?t=197">Rick Rubin</a>
             <div className="cardcontainer">
-            <div className="card sara">
-            <a href="https://www.are.na/blog/on-surface-duetting-space" target="_blank">
-            <img src="nasreen-mohamedi.jpg"></img>
+            <div className="card black">
+            <a href="CreativeActWayofBeing.mp3" target="_blank">
+                <div className="link">
+                ► Excerpt from “The Creative Act: A Way of Being” <br></br><br></br><br></br>
+                Chapters<br></br><br></br>
+                Collaboration<br></br>
+                Intention <br></br>
+                Rules
+                </div>
             </a>
 
             </div>            
 
             </div>
         </div>
+
+
+
+
         <div className="group">
-        Orientations Toward a Queer Phenomenology
-            <div className="cardcontainer">
-            <div className="card sara">
-            <a href="/Excerpt-Orientations+Toward+a+Queer+Phenomenology.pdf" target="_blank">
-            <img src="sweatshirt.jpg"></img>
-            </a>
-
-            </div>            
-
-            </div>
-        </div>
-
-        </div>
-        <div className="row">
-
-<div className="group">
- Journal Prompts
-    <div className="cardcontainer">
-    <div className="card amiri">
-        <a href="https://docs.google.com/document/d/17thFROeYoqlPC47DXvapOj9uYkCKLvwbkHZBQEZFyVk/edit?usp=sharing" target="_blank">
-    <img src="fashion.jpg"></img>
-    </a>
-    </div>            
-    </div>
-</div>
-<div className="group">
-        Surveys
+        Surveys from Week One
             <div className="cardcontainer">
             <div className="card orange">
             <a target="_blank" href="https://forms.gle/xZvHGd5wWM2w4nVy8">
@@ -135,7 +154,10 @@ function HomePage() {
             </div>
             </div>
         </div>
-</div>
+
+
+        </div>
+
     </div>
     <footer>
         <div className="websitewiki">
@@ -145,6 +167,7 @@ function HomePage() {
 
         </div>
     </footer>
+  </div>
   </div>
   </>
   )
