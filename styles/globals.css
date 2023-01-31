@@ -2,6 +2,7 @@ html {
     font-family: 'Helvetica';
     font-size: 12px;
     margin:0;
+    overflow-x:hidden;
 }
 
 
@@ -366,7 +367,7 @@ footer{
 @media only screen and (max-width: 800px) {
 
     .cloudheader{
-        top: 2vh;    }
+        top: 6vh;    }
 
         .cloudheader img{
             width:40vw;
