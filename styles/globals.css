@@ -65,11 +65,10 @@ a{
 
 .cloudheader{
     position: fixed;
-    /* right: -13vw;
+    right: -13vw;
     top: 0vh;
-    z-index: 100;     */
     transition: all 3s;
-    /* cursor: pointer; */
+    cursor: pointer;
       animation: 3s float infinite ease-in-out !important;
 }
 
@@ -366,7 +365,6 @@ footer{
 @media only screen and (max-width: 800px) {
 
     .cloudheader{
-        z-index:-1;
-    }
+        top: 7vh;    }
 
 }
