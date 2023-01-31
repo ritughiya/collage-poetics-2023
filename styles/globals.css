@@ -29,7 +29,6 @@ body {
     bottom:0;
     right:0;
     padding: 10px 80px 10px 10px;
-    margin-right:30px;
     background-color: #ece085;
     cursor:pointer;
     z-index:2000;
@@ -44,9 +43,10 @@ body {
     bottom:0;
     left:0;
     padding: 10px 80px 10px 10px;
-    margin-left:30px;
     background-color: #d5c2cb;
     cursor:pointer;
+    z-index:2000;
+
 }
 
 .click a:hover{
