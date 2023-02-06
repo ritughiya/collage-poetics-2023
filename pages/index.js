@@ -2,7 +2,7 @@ import 'animate.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import Head from 'next/head';
-// import Typing from "../components/Typing"
+import Typing from "../components/Typing"
 
 function HomePage() {
 
@@ -145,7 +145,7 @@ function HomePage() {
         </div>
 
     </div>
-    {/* <Typing /> */}
+    <Typing />
     <footer>
         <div className="websitewiki">
         This website is made to house the syllabus and the archive of Yale MFA course Collage Poetics’ spring 2023 semester. It launched the first day of the course 1/23/23 and will reveal itself fully through 4/24/23 the final day of the course.
