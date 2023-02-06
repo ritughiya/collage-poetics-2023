@@ -5,6 +5,11 @@ html {
     overflow-x:hidden;
 }
 
+@font-face {
+    font-family: 'Chalkboard';
+    src: url(Chalkboard.ttf);
+  }
+
 
 
 .week{
@@ -16,6 +21,41 @@ html {
     background-color: #d9c8d3;
 
 }
+
+.week3 {
+    /* animation: colorchange 20s linear infinite;
+    background: linear-gradient(to right, #a2cef6 0%, #9bdde0 100%); */
+
+    background-color: #f4f1eaff;
+    color: #655b43;
+  }
+
+  .week3 .header{
+    font-family: 'Chalkboard';
+    display:flex;
+
+  }
+
+  .week3 .head{
+    font-size:4em;
+  }
+
+  .week3 .subhead{
+    font-size:2em;
+  }
+  
+  /* @keyframes colorchange {
+    0% {
+      background: linear-gradient(to right, #a2cef6 0%, #9bdde0 100%);
+    }
+    50% {
+      background: linear-gradient(to right, #9bdde0 0%, #a2cef6 100%);
+    }
+    100% {
+      background: linear-gradient(to right, #a2cef6 0%, #9bdde0 100%);
+    }
+  } */
+
 body {
     margin:0;
     overflow-x:hidden;
@@ -29,10 +69,19 @@ body {
     position:fixed;
     bottom:0;
     right:0;
-    padding: 10px 80px 10px 10px;
-    background-color: #ece085;
+    padding: 10px;
+    width: 125px;
     cursor:pointer;
     z-index:2000;
+}
+
+.next{
+    bottom: 34px !important;
+    background-color:#acc685;
+}
+
+.last{
+    background-color: #ece085;
 }
 
 .portal a:hover{
@@ -182,6 +231,11 @@ a{
     border: 1px solid black;
 }
 
+.white {
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+
 .transparent {
     background-color: #d9c8d3;
     border: 1px solid black;
@@ -211,6 +265,20 @@ a{
 .orange {
     background-color: #EFFBA7;
     border: 2px solid #719240;
+}
+
+.hidden{
+    opacity:0.5;
+}
+
+.chat{
+    position: absolute;
+    top: 80vh;
+    right: 2vw;
+    background-color: #DEE3E2;
+    border-radius: 80px;
+    padding: 2vw;
+    font-size:1.15em;
 }
 
 .sara,
@@ -364,7 +432,11 @@ footer{
   }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
+
+    .chat{
+        display:none;
+    }
 
     .cloudheader{
         top: 6vh;    }

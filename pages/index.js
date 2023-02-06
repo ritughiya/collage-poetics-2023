@@ -2,30 +2,15 @@ import 'animate.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import Head from 'next/head';
+import Typing from "../components/Typing"
 
 function HomePage() {
 
 
-  // Random Region
-
-//   var randomImg = [
-//     '<img src="/pic.png"></img>',
-// '<img src="/pic1.jpg"></img>',
-// '<img src="/pic2.png"></img>',
-// '<img src="/pic3.png"></img>',
-// '<img src="/pic4.png"></img>',
-// '<img src="/pic5.png"></img>',
-
-//   ]
-//   const out = []
-
-//   for (let i = 0; i < randomImg.length; i++) {
-//     out.push(randomImg.splice(Math.floor(Math.random() * randomImg.length), 1))
-//   }
 
   return (
     <>
-    <div className="week week2">
+    <div className="week week3">
     <Head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"></meta>
     <title>collage poetics 2023</title>
@@ -49,17 +34,17 @@ function HomePage() {
 </div>
     <div className="header">
         <div className="head">Collage Poetics</div>
-    <div className="subhead">Week 2 - Sketching</div>
+    <div className="subhead">Week 3 - Materializing / Designing + Making</div>
     </div>
 
-    <div className="portal">
-        <a href="/week1">
-            Week 1
+    <div className="portal last">
+        <a href="/week2">
+            Last Week
         </a>
     </div>
 
     <div className="click">
-        <a href="https://docs.google.com/spreadsheets/d/1hBWCRV9fTf0BlN7hTykIjYfiBWIuMQpY7kmop6ilUCs/edit?usp=sharing">
+        <a href="https://docs.google.com/spreadsheets/d/1hBWCRV9fTf0BlN7hTykIjYfiBWIuMQpY7kmop6ilUCs/edit?usp=sharing" target="_blank">
             office hours
         </a>
     </div>
@@ -80,7 +65,7 @@ function HomePage() {
             <div className="cardcontainer">
             <div className="card journal2">
             <a href="https://docs.google.com/document/d/17thFROeYoqlPC47DXvapOj9uYkCKLvwbkHZBQEZFyVk/edit?usp=sharing" target="_blank">
-            <img src="mm6.jpeg"></img>
+            <img src="teeth.jpg"></img>
             </a>
 
             </div>            
@@ -103,9 +88,48 @@ function HomePage() {
         <div className="row">
 
         <div className="group">
-            Hackers and Painters
+            
+            <span class="hidden">Slides: Digital Art Overview</span>
+            <div className="card white hidden">
+            <a>
+            <div className="link">
+
+            <div className="nodal">
+                    <div className="dot"></div>
+                </div>
+                <div className="point">
+
+                </div>
+
+            </div>
+</a>
+
+
+            </div>
+        </div>
+
+        <div className="group">
+            <span class="hidden">Technical Demo by Alvin</span>
+            <div className="card white hidden">
+            <a>
+            <div className="link">
+
+                    <div className="dot"></div>
+                <div className="point">
+
+                </div>
+
+            </div>
+</a>
+
+
+            </div>
+        </div>
+
+        <div className="group">
+            Mommy by Maggie Lee
             <div className="card black">
-            <a target="_blank" href="http://www.paulgraham.com/hp.html">
+            <a target="_blank" href="https://www.dropbox.com/s/9pt3ug1uz48vp5h/Maggie%20Lee%20-%20Mommy.mp4?dl=0">
             <div className="link">
 
 
@@ -116,50 +140,12 @@ function HomePage() {
             </div>
         </div>
 
-        <div className="group">
-        Audiobook by <a class="underline" href="https://youtu.be/FqNDYvsOZkc?t=197">Rick Rubin</a>
-            <div className="cardcontainer">
-            <div className="card black">
-            <a href="CreativeActWayofBeing.mp3" target="_blank">
-                <div className="link">
-                ► Excerpt from “The Creative Act: A Way of Being” <br></br><br></br><br></br>
-                Chapters<br></br><br></br>
-                Collaboration<br></br>
-                Intention <br></br>
-                Rules
-                </div>
-            </a>
-
-            </div>            
-
-            </div>
-        </div>
-
-
-
-
-        <div className="group">
-        Surveys from Week One
-            <div className="cardcontainer">
-            <div className="card orange">
-            <a target="_blank" href="https://forms.gle/xZvHGd5wWM2w4nVy8">
-            <div className="link">
-                </div>
-                </a>
-            </div>            
-            <div className="card purple">
-            <a target="_blank" href="https://forms.gle/9rCxvDbrYqHBepnL8">
-            <div className="link">
-                </div>
-                </a>
-            </div>
-            </div>
-        </div>
 
 
         </div>
 
     </div>
+    <Typing />
     <footer>
         <div className="websitewiki">
         This website is made to house the syllabus and the archive of Yale MFA course Collage Poetics’ spring 2023 semester. It launched the first day of the course 1/23/23 and will reveal itself fully through 4/24/23 the final day of the course.

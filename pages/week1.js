@@ -53,9 +53,9 @@ function HomePage() {
     <div className="subhead">Week 1 - Gathering References</div>
     </div>
 
-    <div className="portal">
-        <a href="/">
-            Week 2
+    <div className="portal next">
+        <a href="/week2">
+            Next Week
         </a>
     </div>
 
@@ -64,7 +64,7 @@ function HomePage() {
         <div className="group animate__animated animate__bounceInDown">
             Syllabus
             <div className="card default">
-            <a target="_blank" href="https://docs.google.com/document/d/1FAHL7zy8U_gcXnkgR9roEQUo_wpfH9uXnH4tzgRgv_M/edit?usp=sharing">
+            <a target="_blank" href="https://docs.google.com/document/d/1FAHL7zy8U_gcXnkgR9roEQUo_wpfH9uXnH4tzgRgv_M/edit?usp=sharing" >
             <div className="link"></div>
 </a>
             </div>
