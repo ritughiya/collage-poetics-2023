@@ -7,7 +7,7 @@ html {
 
 @font-face {
     font-family: 'Chalkboard';
-    src: url(Chalkboard.ttf);
+    src: url(/styles/chalkboard.ttf);
   }
 
 
