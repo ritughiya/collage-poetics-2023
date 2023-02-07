@@ -89,9 +89,9 @@ function HomePage() {
 
         <div className="group">
             
-            <span class="hidden">Slides: Digital Art Overview</span>
-            <div className="card white hidden">
-            <a>
+            Slides: Digital Art Overview
+            <div className="card white">
+            <a target="_blank" href="/Collage-Poetics-2023-Week-3.pdf">
             <div className="link">
 
             <div className="nodal">
@@ -109,9 +109,10 @@ function HomePage() {
         </div>
 
         <div className="group">
-            <span class="hidden">Technical Demo by Alvin</span>
-            <div className="card white hidden">
-            <a>
+            Technical Demo by Alvin
+            <div className="card white">
+            
+            <a target="_blank" href="https://github.com/alvinashiatey/Dev-tools-workshop">
             <div className="link">
 
                     <div className="dot"></div>
