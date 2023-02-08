@@ -445,4 +445,8 @@ footer{
             width:40vw;
         }
 
+        .header{
+            display:block !important;
+        }
+
 }
