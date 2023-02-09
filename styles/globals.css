@@ -15,6 +15,7 @@ html {
 .week{
     padding: 1vh 1vw;
     width:100vw;
+    min-height:100vh;
 }
 
 .week1{
