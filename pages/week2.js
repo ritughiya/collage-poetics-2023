@@ -53,7 +53,7 @@ function Week2() {
     </div>
 
     <div className="portal next">
-        <a href="/">
+        <a href="/week3">
             Next Week
         </a>
     </div>

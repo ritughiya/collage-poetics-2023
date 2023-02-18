@@ -10,6 +10,11 @@ html {
     src: url(/chalkboard.ttf);
   }
 
+  @font-face {
+    font-family: 'Army';
+    src: url(/army.ttf);
+  }
+
 
 
 .week{
@@ -330,6 +335,57 @@ footer{
     width:200px;
 }
 
+/* week 4 */
+
+.week4 .head{
+    font-size: 4em;
+    font-family: 'Army';
+    margin: 0 10px;
+
+}
+
+.week4 .subhead{
+    width: fit-content;
+    background-color: #f0e8b3;
+    padding: 5px;
+    color: black;
+    height: min-content;
+}
+
+.week4 .header{
+    color: #a6edf6; 
+    margin-bottom: 10px;
+    display:flex;   
+
+}
+
+.week4 footer{
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    width: 94vw;
+    margin-bottom: 50px;
+}
+
+.week4 .websitewiki{
+    font-family: 'Courier';
+    line-height: 1.2;
+    letter-spacing: 0.2px;
+    width: 90%;
+    margin-bottom:0;
+}
+.week4{
+    background-image:url('/brick.png');
+    background-size:800px;
+}
+
+.week4 .container{
+    background-color: #d1faa1;
+    box-shadow: inset 0px 0px 44px 25px rgb(14 234 185 / 35%);
+    width: 420px;
+    padding: 30px;
+    border-radius: 30px;
+}
 
 /* bounce animation */
 
