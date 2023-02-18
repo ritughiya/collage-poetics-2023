@@ -379,6 +379,10 @@ footer{
     background-size:800px;
 }
 
+.week4 .row{
+    display:block;
+}
+
 .week4 .container{
     background-color: #d1faa1;
     box-shadow: inset 0px 0px 44px 25px rgb(14 234 185 / 35%);
