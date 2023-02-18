@@ -338,7 +338,7 @@ footer{
 /* week 4 */
 
 .week4 .head{
-    font-size: 3em;
+    font-size: 4em;
     font-family: 'Army';
     margin: 0 10px;
 
@@ -508,6 +508,16 @@ footer{
 
         .header{
             display:block !important;
+        }
+
+        .week4 .head{
+           
+    background-color: #a6edf6;
+    color: black;
+    font-family: unset;
+    font-size: unset;
+    margin: 0;
+    padding: 5px;
         }
 
 }
