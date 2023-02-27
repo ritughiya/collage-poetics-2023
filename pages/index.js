@@ -2,7 +2,7 @@ import 'animate.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import Head from 'next/head';
-import Typing2 from "../components/Typing2"
+import Typing3 from "../components/Typing3"
 
 function HomePage() {
 
@@ -10,7 +10,7 @@ function HomePage() {
 
   return (
     <>
-    <div className="week week4">
+    <div className="week week5">
     <Head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"></meta>
     <title>collage poetics 2023</title>
@@ -23,11 +23,11 @@ function HomePage() {
 </div>
     <div className="header">
         <div className="head">Collage Poetics</div>
-    <div className="subhead">Week 4 - Presentations on Work in Progress</div>
+    <div className="subhead">Week 5 - Are.na Visit + Intro to P2</div>
     </div>
 
     <div className="portal last">
-        <a href="/week3">
+        <a href="/week4">
             Last Week
         </a>
     </div>
@@ -41,10 +41,13 @@ function HomePage() {
     <div className="container">
     <div className="row">
         <div className="group animate__animated animate__bounceInDown">
-            Syllabus
             <div className="card default">
             <a target="_blank" href="https://docs.google.com/document/d/1FAHL7zy8U_gcXnkgR9roEQUo_wpfH9uXnH4tzgRgv_M/edit?usp=sharing">
-            <div className="link"></div>
+            <div className="link">
+                <div className="blocktext">Syllabus<br></br>
+                1 block • 1 month ago
+                </div>
+            </div>
 </a>
             </div>
             
@@ -55,18 +58,12 @@ function HomePage() {
 
         <div className="group">
             
-           Download Figma
             <div className="card white">
-            <a target="_blank" href="https://www.figma.com/">
+            <a target="_blank">
             <div className="link">
-
-            <div className="nodal">
-                    <div className="dot"></div>
+                <div className="blocktext">Alvin’s 3/6 office hours<br></br>
+                0 blocks • 1 week from now
                 </div>
-                <div className="point">
-
-                </div>
-
             </div>
 </a>
 
@@ -75,12 +72,12 @@ function HomePage() {
         </div>
 
         <div className="group">
-            On Motivation by Charles Broskoski
-            <div className="card black">
-            <a target="_blank" href="https://www.are.na/blog/on-motivation">
+            <div className="card white">
+            <a target="_blank" href="/Collage-Poetics-P2.pdf">
             <div className="link">
-
-
+                <div className="blocktext">P2 Slides<br></br>
+                1 block • 1 day ago
+                </div>
             </div>
 </a>
 
@@ -93,7 +90,7 @@ function HomePage() {
         </div>
 
     </div>
-    <Typing2 />
+    <Typing3 />
     <footer>
         <div className="websitewiki">
         This website is made to house the syllabus and the archive of Yale MFA course Collage Poetics’ spring 2023 semester. It launched the first day of the course 1/23/23 and will reveal itself fully through 4/24/23 the final day of the course.

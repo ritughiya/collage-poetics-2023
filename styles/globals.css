@@ -391,6 +391,38 @@ footer{
     border-radius: 30px;
 }
 
+/* week 5 */
+
+.week5 .card{
+    width:300px;
+    height: 300px;
+    background-color:white;
+    border: 1px solid rgb(160 152 174);
+    color: rgb(160 152 174);
+}
+
+.week5 .card a{
+    color: rgb(160 152 174);
+}
+
+.week5 .card:hover{
+    border: 1px solid  rgb(75, 61, 103);
+    color:  rgb(75, 61, 103);  
+}
+
+.week5 .card a:hover{
+    color:  rgb(75, 61, 103); 
+}
+
+.blocktext{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    font-size:1.3em;
+}
 /* bounce animation */
 
 @-webkit-keyframes bounceInDown {

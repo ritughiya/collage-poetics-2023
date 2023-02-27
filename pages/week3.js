@@ -38,7 +38,7 @@ function HomePage() {
     </div>
 
     <div className="portal next">
-        <a href="/">
+        <a href="/week4">
             Next Week
         </a>
     </div>
