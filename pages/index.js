@@ -59,10 +59,11 @@ function HomePage() {
         <div className="group">
             
             <div className="card white">
-            <a target="_blank">
+            <a target="_blank" href="https://docs.google.com/spreadsheets/d/1TYzXWZCCJDSgVnIIPiBcimVgbj5-z_xZS0n19-qdh6M/edit?usp=sharing">
+
             <div className="link">
                 <div className="blocktext">Alvin’s 3/6 office hours<br></br>
-                0 blocks • 1 week from now
+                1 block • 1 week from now
                 </div>
             </div>
 </a>
