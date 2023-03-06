@@ -423,6 +423,12 @@ footer{
     text-align: center;
     font-size:1.3em;
 }
+
+/* week6 header */
+
+.week6 .header{
+    font-size:1.3em;
+}
 /* bounce animation */
 
 @-webkit-keyframes bounceInDown {

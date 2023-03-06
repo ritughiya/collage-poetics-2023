@@ -2,7 +2,7 @@ import 'animate.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import Head from 'next/head';
-import Typing3 from "../components/Typing3"
+import Typing4 from "../components/Typing4"
 
 function HomePage() {
 
@@ -10,7 +10,7 @@ function HomePage() {
 
   return (
     <>
-    <div className="week week5">
+    <div className="week week5 week6">
     <Head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"></meta>
     <title>collage poetics 2023</title>
@@ -23,11 +23,11 @@ function HomePage() {
 </div>
     <div className="header">
         <div className="head">Collage Poetics</div>
-    <div className="subhead">Week 5 - Are.na Visit + Intro to P2</div>
+    <div className="subhead">Week 6 - Ritu's out of office  ⛱️ Alvin Time  💼 </div>
     </div>
 
     <div className="portal last">
-        <a href="/week4">
+        <a href="/week5">
             Last Week
         </a>
     </div>
@@ -63,7 +63,7 @@ function HomePage() {
 
             <div className="link">
                 <div className="blocktext">Alvin’s 3/6 office hours<br></br>
-                1 block • 1 week from now
+                1 block • today
                 </div>
             </div>
 </a>
@@ -77,7 +77,7 @@ function HomePage() {
             <a target="_blank" href="/Collage-Poetics-P2.pdf">
             <div className="link">
                 <div className="blocktext">P2 Slides<br></br>
-                1 block • 1 day ago
+                1 block • 1 week ago
                 </div>
             </div>
 </a>
@@ -91,7 +91,7 @@ function HomePage() {
         </div>
 
     </div>
-    <Typing3 />
+    <Typing4 />
     <footer>
         <div className="websitewiki">
         This website is made to house the syllabus and the archive of Yale MFA course Collage Poetics’ spring 2023 semester. It launched the first day of the course 1/23/23 and will reveal itself fully through 4/24/23 the final day of the course.
