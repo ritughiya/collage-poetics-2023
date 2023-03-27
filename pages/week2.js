@@ -48,7 +48,7 @@ function Week2() {
 
 </div>
     <div className="header">
-        <div className="head">Collage Poetics</div>
+    <div className="head"><a href="https://collage-poetics.com/">Collage Poetics</a></div>
     <div className="subhead">Week 2 - Sketching</div>
     </div>
 

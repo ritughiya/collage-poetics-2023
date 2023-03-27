@@ -15,6 +15,11 @@ html {
     src: url(/army.ttf);
   }
 
+  @font-face {
+    font-family: 'Tiny';
+    src: url(/tiny.otf);
+  }
+
 
 
 .week{
@@ -49,7 +54,41 @@ html {
   .week3 .subhead{
     font-size:2em;
   }
+
+  .week7{
+    background-color: #ffffff;
+    color: #000;
+  }
+
+  .week7 .container{
+    margin-top:50px;
+  }
+
+  .week7 .card{
+     background-color:#ffffff;
+  }
+
+  .week7 .head{
+    /* font-family: 'Tiny'; */
+    font-size:3em;
+    margin-right: 5vw;
+
+  }
+
+  .week7 .subhead{
+    margin-right: 5vw;
   
+  }
+
+  .week7 .desc{
+    border-top:1px solid black;
+    /* width: 80vw; */
+    line-height: 1.5;
+    /* letter-spacing: 0.05em; */
+    /* font-family: 'Courier'; */
+    margin-top: 50px;
+    font-size:1.1em;
+    padding: 50px;}
   /* @keyframes colorchange {
     0% {
       background: linear-gradient(to right, #a2cef6 0%, #9bdde0 100%);
@@ -79,6 +118,24 @@ body {
     width: 125px;
     cursor:pointer;
     z-index:2000;
+}
+
+.journal{
+    bottom: 68px !important;
+    background-color:#000;
+    left:0;
+
+}
+
+.journal a{
+    color: #fff !important;
+
+}
+
+.inspiration{
+    bottom: 34px !important;
+    background-color:#ffffff;
+    left:0;
 }
 
 .next{
@@ -129,11 +186,31 @@ a{
       animation: 3s float infinite ease-in-out !important;
 }
 
+.sunheader{
+    position: fixed;
+    right: -13vw;
+    top: -5vh;
+    transition: all 3s;
+    cursor: pointer;
+      animation: 3s float infinite ease-in-out !important;
+}
+
 .card, .group, .row{
     z-index:1000 !important;
 }
 
 .cloudheader img{
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    pointer-events: none;
+
+}
+
+.sunheader img{
     user-drag: none;
     -webkit-user-drag: none;
     user-select: none;
@@ -429,6 +506,63 @@ footer{
 .week6 .header{
     font-size:1.3em;
 }
+
+/* week7 */
+
+.week7{
+    padding: 0.5vh 1vw !important;
+}
+
+.week7 .header{
+    display:flex;
+
+    line-height: 0.9;
+}
+
+.week7 .subhead{
+    font-size: 1.4em;
+    /* letter-spacing: 0.2em; */
+}
+
+.week7 .h2{
+    /* font-family: 'Courier'; */
+    margin:80px 0 10px 0;
+    color: #000;
+    padding: 50px;
+    border-top: 1px solid black;
+}
+
+.journal a:hover{
+    color: red !important;
+}
+
+.jen img:hover,
+.pdf img:hover{
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.pdf img{
+    height: 250px;
+transition: all 1s;}
+
+.jen img{
+    height: 250px;    margin-left:15px;
+    box-shadow: 1px 1px 6px rgb(0 0 0 / 60%);
+    transition: all 1s;
+}
+
+.week7 .websitewiki{
+    margin-bottom:150px;
+}
+
+.past{
+    color: #000;
+}
+
+.past .card{
+    background-color:#000;
+}
+
 /* bounce animation */
 
 @-webkit-keyframes bounceInDown {
@@ -544,6 +678,15 @@ footer{
             width:40vw;
         }
 
+        .sunheader{
+            top: 6vh;    }
+    
+            .sunheader img{
+                width:40vw;
+            }
+
+
+
         .header{
             display:block !important;
         }
@@ -556,6 +699,12 @@ footer{
     font-size: unset;
     margin: 0;
     padding: 5px;
+        }
+
+        .week7 .head {
+
+            margin-bottom: 1vh;
+
         }
 
 }

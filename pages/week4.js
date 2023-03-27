@@ -22,12 +22,12 @@ function Week4() {
 
 </div>
     <div className="header">
-        <div className="head">Collage Poetics</div>
+    <div className="head"><a href="https://collage-poetics.com/">Collage Poetics</a></div>
     <div className="subhead">Week 4 - Presentations on Work in Progress</div>
     </div>
 
     <div className="portal next">
-        <a href="/">
+        <a href="/week5">
             Next Week
         </a>
     </div>
